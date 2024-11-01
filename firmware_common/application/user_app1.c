@@ -102,7 +102,6 @@ void UserApp1Initialize(void)
     /* The task isn't properly initialized, so shut it down and don't run */
     UserApp1_pfStateMachine = UserApp1SM_Error;
   }
-
 } /* end UserApp1Initialize() */
 
   
@@ -140,7 +139,6 @@ State Machine Function Definitions
 /* What does this state do? */
 static void UserApp1SM_Idle(void)
 {
-     
 } /* end UserApp1SM_Idle() */
      
 
